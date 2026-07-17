@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: adesetiawan_react_dev
+    container_name: dzulqornain-abu-dev
     user: "0:0" # karena host nya idnsolo bukan idnsolo_remote, maka user nya harus root (0:0)
     working_dir: /app
     ports:
